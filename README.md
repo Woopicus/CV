@@ -1,70 +1,159 @@
-Hallo, Ik ben Bart
+# 👋 Hallo, ik ben **Bart van Drongelen**
 
-Ik ben een software developer met ervaring in symfony, php, vue en Typescript. Dit repository is mijn GitHub-CV: een korte samenvatting van wat ik gebouwd heb, wat ik geleerd heb en hoe je me kunt bereiken.
+🎯 **Omscholende Software Developer (32 jaar)**  
+Ik ben sinds 6 maanden actief bezig met programmeren en heb in korte tijd veel geleerd door zelfstudie en praktijkprojecten.  
+Waar anderen een opleidingstraject volgen, heb ik mijn eigen structuur opgebouwd: **ik leer door te bouwen, te testen en feedback te verwerken.**
 
-## 👨‍💻 Over mij
-Ik ben leergierig, resultaatgericht en ik vind het leuk om van idee naar een werkende oplossing te komen.  
-Tijdens mijn projecten heb ik veel geleerd over **basis OOP-principes** en hoe ik frameworks zoals **Symfony en Vue** effectief kan inzetten.  
-Ik werk graag met duidelijke code en ik hou ervan om structuur aan te brengen in mijn projecten.
+---
 
+## 🧭 Over mij
+Ik ben een leergierige en resultaatgerichte ontwikkelaar met een passie voor **duidelijke, gestructureerde code**.  
+Ik werk graag aan projecten waarin ik een idee kan omzetten naar een functionele toepassing — of dat nu een API, een webapplicatie of een kleine feature is.
 
-## 🛠️ Skills
-- **Frontend:** Vue 3 (TypeScript), Vuetify, Composition API
-- **Backend:** PHP 8+, Symfony 6, REST API, Doctrine ORM
-- **Databases:** HeidiSQL, MySQL
-- **Tools:** Git, Docker, Composer, NPM
-- **Concepten:** Object Oriented Programming (OOP), Clean architecture, API design
+---
 
-## 👨‍💻 Basis OOP
-In mijn projecten heb ik de basisprincipes van OOP toegepast:
+## 💡 Wat mij typeert
+- 🔍 Ik leer snel en hou van technische diepgang
+- 🤝 Ik werk graag samen en help anderen problemen op te lossen
+- 🧠 Ik breng rust, volwassenheid en focus in een team
+- 🚀 Ik heb in korte tijd zelfstandig een solide basis gelegd in Symfony, PHP, Vue en TypeScript
 
-- **Encapsulation:** velden privé houden in entities en toegang via getters/setters.
-- **Inheritance:** herbruikbare basislogica via abstracte classes.
-- **Abstraction:** services en interfaces om verantwoordelijkheden te scheiden.
+---
 
-## ⚡ Frameworks
+## 🛠️ Skills & Tools
 
-### Symfony
-- REST API opgezet met controllers en routes.
-- Doctrine ORM gebruikt voor entities en database-migraties.
-- Services en Repositories gescheiden voor duidelijke architectuur.
+### 💻 **Technische Stack**
+| Domein | Technologieën |
+|--------|----------------|
+| **Frontend** | Vue 3 (Composition API), TypeScript, Vuetify |
+| **Backend** | PHP 8+, Symfony 6, Doctrine ORM, REST API |
+| **Database** | MySQL, HeidiSQL |
+| **Tools** | Git, GitHub, Docker, Composer, NPM |
+| **Concepten** | OOP, Clean Architecture, API Design, DDD, Unit Testing |
 
-### Vue 3
-- Composition API gebruikt: `ref`.
-- CRUD implementatie tegen een Symfony API.
-- Vuetify toegepast voor snelle UI-componenten.
-- TypeScript voor type safety en beter onderhoudbare code.
+---
 
-## 🚀 Projects
+## 🚀 Projecten
 
-### 1) 📚 Lightnovel Reader App (Frontend)
-Een SPA gemaakt met **Vue 3 + Vuetify** voor het beheren en bekijken van lightnovels.
+### 1️⃣ 📚 **Lightnovel App (Fullstack)**
+Een volledig **fullstack-project** bestaande uit een **Symfony API (backend)** en een **Vue 3 SPA (frontend)**.  
+Ontwikkeld om de volledige workflow van backend tot frontend onder de knie te krijgen en **OOP-principes** praktisch toe te passen.
 
-**Features:**
-- Lijst van lightnovels met CRUD functionaliteit
-- Afbeeldingen uploaden met preview
-- Responsive UI en TypeScript voor type safety
+#### 🖥️ **Frontend**
+- CRUD-functionaliteit met API-integratie
+- Afbeeldingen uploaden met previews
+- Vuetify UI, Composition API, TypeScript
+- Responsieve interface voor desktop en mobiel
 
-🔗 Repo: [Woopicus/lightnovel-reader-app](https://github.com/Woopicus/lightnovel-reader-app)
+🔗 **Repo:** [Woopicus/lightnovel-reader-app](https://github.com/Woopicus/lightnovel-reader-app)
 
-### 2) 📨 Lightnovel Reader API (Backend)
-**Beschrijving:**  
-Een Symfony 6 API voor het verwerken en beheren van lightnovels en bijbehorende data.
+#### ⚙️ **Backend**
+- Symfony REST API met CRUD endpoints
+- Doctrine ORM + DDD-architectuur
+- Services en repositories gescheiden
+- Duidelijke error handling en service-logica
 
-**Features:**
-- CRUD endpoints voor lightnovels
-- Services en Repositories gescheiden voor duidelijke architectuur
-- Doctrine ORM voor database-integratie
-- API endpoints gebruikt door frontend (Vue 3 SPA)
+🔗 **Repo:** [Woopicus/lightnovel-reader-api](https://github.com/Woopicus/lightnovel-reader-api)
 
-🔗 Repo: [Woopicus/lightnovel-reader-api](https://github.com/Woopicus/lightnovel-reader-api)
+---
+
+### 2️⃣ 📨 **Message App (Fullstack CRUD)**
+Een oefenproject gericht op **codekwaliteit, structuur en Vue-architectuur**, gebouwd met feedback van senior developers.  
+Dit project versterkte mijn kennis van **computed properties, watchers** en **clean service layers**.
+
+#### 🖥️ **Frontend**
+- Vue 3 + TypeScript CRUD-app
+- Computed properties & watchers voor dynamiek
+- Vuetify component-based UI
+- Consistente code-architectuur
+
+🔗 **Repo:** [Woopicus/message-app](https://github.com/Woopicus/message-app)
+
+#### ⚙️ **Backend**
+- Symfony API met CRUD-functionaliteit voor berichten
+- Clean DDD-structuur en service-afhandeling
+- Losgekoppelde repository- en servicelaag
+
+🔗 **Repo:** [Woopicus/message-api](https://github.com/Woopicus/message-api)
+
+---
+
+### 3️⃣ 🎮 **Rebuild: Fallen Kingdom (Game Project)**
+Een persoonlijk leerproject waarin ik een **browsergame** bouw met **Vue 3**, **Phaser** en een **Symfony backend**.  
+Het project toont mijn interesse in het combineren van **logica, visualisatie en API-integratie**.  
+Hiermee oefen ik **game physics, event handling, async data** en de koppeling tussen frontend en backend.
+
+#### 🖥️ **Frontend**
+- Gebouwd met **Vue 3 + TypeScript + Phaser**
+- Dag/nacht-cyclus, entity-spawning (villagers, enemies, coins)
+- Communicatie met Symfony API voor dataopslag
+- Volledig speelbaar in de browser zonder downloads
+
+🔗 **Repo:** [Woopicus/Rebuild-Fallen-Kingdom-Frontend](https://github.com/Woopicus/Rebuild-Fallen-Kingdom-Frontend)
+
+#### ⚙️ **Backend**
+- Symfony API met POST-endpoint voor opslag van game progress
+- Clean structuur met controllers, services en DTO’s
+- Opgezet als proof-of-concept voor backendcommunicatie
+
+🔗 **Repo:** [Woopicus/Rebuild-Fallen-Kingdom-Backend](https://github.com/Woopicus/Rebuild-Fallen-Kingdom-Backend)
+
+---
+
+### 4️⃣ 🚗 **OOP Car Examples (PHP OOP + Unit Testing)**
+Een klein maar krachtig oefenproject waarin ik de kernprincipes van **Object-Oriented Programming** (OOP) toepas in **PHP 8**.  
+Het project demonstreert hoe je met **inheritance**, **interfaces**, **dependency injection** en **unit testing** een uitbreidbaar systeem kunt bouwen.
+
+#### ⚙️ **Doel van het project**
+De structuur van het project laat zien hoe ik abstract denken omzet in concrete code.  
+Ik heb een **Car**-basisclass gebouwd met afgeleide classes zoals **ElectricCar** en **GasCar**, elk met hun eigen eigenschappen en gedrag.  
+Een **FuelCalculator service** berekent de actieradius op basis van het type motor, energieverbruik en brandstof.
+
+#### 🧩 **Belangrijkste concepten**
+- **Encapsulation:** eigenschappen van auto’s worden beschermd met getters/setters
+- **Inheritance:** ElectricCar en GasCar erven van de Car-basisklasse
+- **Abstraction:** Engine en FuelCalculator gescheiden in losse klassen met eigen verantwoordelijkheden
+- **Dependency Injection:** Engine-object wordt aan Car doorgegeven via de constructor
+- **Unit Testing:** met PHPUnit getest op correcte berekening van actieradius en gedrag per type auto
+
+#### 🧪 **Wat ik geleerd heb**
+- OOP-principes praktisch toepassen in realistische code
+- PHPUnit configureren en unit tests schrijven
+- Denken in verantwoordelijkheden in plaats van functies
+- Kleine, herbruikbare klassen maken die goed samen werken
+
+🔗 **Repo:** [Woopicus/oop-car-examples](https://github.com/Woopicus/oop-car-examples)
+
+---
+
+## 💬 Aanpak & Werkwijze
+Ik werk volgens een **gestructureerde ontwikkelcyclus**, gericht op kwaliteit en samenwerking:
+
+- 🧭 **Planmatig werken:** eerst begrijpen, dan bouwen
+- 🌱 **Iteratief ontwikkelen:** kleine stappen, snelle feedback
+- 🧩 **Branch-based workflow:** `feature/`, `bugfix/`, `refactor/`
+- 🧪 **Zelfstandig testen** en refactoren voor leesbare code
+- 💬 **Feedback omarmen:** ik leer graag van code reviews
+- 🤝 **Teamgericht:** mijn doel is om samen software te bouwen die werkt én onderhoudbaar blijft
+
+---
 
 ## 🧠 Wat ik geleerd heb
-- Hoe je OOP-principes praktisch toepast in Symfony en Vue.
-- Hoe je **API’s ontwerpt** en implementeert met CRUD-functionaliteit.
-- Hoe je **file uploads en error handling** netjes integreert in een frontend.
-- Hoe je GitHub gebruikt om projecten te structureren en presenteren.
+- Hoe ik **OOP-principes** praktisch toepas in Symfony en Vue
+- Hoe ik **API’s ontwerp en implementeer** met CRUD-functionaliteit
+- Hoe ik **file uploads, watchers en computed variabelen** gebruik in de frontend
+- Hoe ik **Clean Architecture** opzet in Symfony met services en repositories
+- Hoe ik zelfstandig nieuwe technologieën kan aanleren en toepassen in projecten
+
+---
+
+## 🎯 Waar ik naartoe werk
+Ik wil me verder ontwikkelen tot een **fullstack developer** met sterke backendfocus.  
+Mijn doel is om te werken in een team waar ik kan bijdragen aan **kwaliteit, structuur en stabiliteit** in de codebase —  
+en tegelijkertijd te blijven groeien in **design patterns, testing en clean code**.
+
+---
 
 ## 📫 Contact
-- 📧 Email: Bart_drongelen@hotmail.com
-- 🐙 GitHub: [Woopicus](https://github.com/Woopicus)  
+📧 **Email:** Bart_drongelen@hotmail.com  
+🐙 **GitHub:** [Woopicus](https://github.com/Woopicus)
